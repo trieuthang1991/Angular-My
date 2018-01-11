@@ -26,7 +26,13 @@
         "../src/assets/Css/custom.min.css"
        
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/fastclick/lib/fastclick.js",
+        "../src/assets/js/custom.min.js"
+
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

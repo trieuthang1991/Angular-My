@@ -3,9 +3,9 @@ import { MainComponent } from './main.component';
 export const mainRoutes: Routes = [
     {
         path: '', component: MainComponent, children: [
-            { path: '', redirectTo: 'users', pathMatch: 'full' },
-            { path: 'users', loadChildren: './users/users.module#UsersModule' },
+            { path: '', redirectTo: 'home', pathMatch: 'full' },
             { path: 'home', loadChildren: './home/home.module#HomeModule' },
+            { path: 'users', loadChildren: './users/users.module#UsersModule' },
             { path: 'function', loadChildren: './function/function.module#FunctionModule' }
         ]
     }
